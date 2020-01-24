@@ -5,9 +5,8 @@ clone到本地进行修改，由于是自己的仓库，所以想怎么改都行
 再修改完bug后，push回自己的仓库
 
 第一步：fork项目到自己的仓库中
-在项目名称右边有fork键，登陆后点击即可fork仓库。
+在项目名称右边有fork键，登陆后点击即可fork仓库。完成后将会跳转到你自己的项目分支。
 
-fork过程中可以看到这么一个图片，完成后将会跳转到你自己的项目分支。
 第二步：打开Git Bash或者命令行，将项目下载到本地
 $ git clone https://github.com/taotianli/Virgilio.git
 Cloning into 'Virgilio'...
@@ -19,6 +18,7 @@ Receiving objects: 100% (1784/1784), 7.15 MiB | 123.00 KiB/s, done.
 Resolving deltas: 100% (824/824), done.
 
 你需要将git clone后的网址换成你自己的仓库，在看到done之后就代表这个仓库已经下载到了本地。
+
 第三步：进入本地文件，并进行相应修改，这里以修改README.md作为演示。
 $ cd Virgilio/
 git add README.md
